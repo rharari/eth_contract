@@ -147,7 +147,7 @@ And paste the commands bellow:
 
 We have to wrap the source contract into a JSON structure `solcInput`.
 
-Add more few lines:
+Just more few lines of code:
 
 ```
    > solcInput = JSON.stringify(solcInput);
@@ -176,9 +176,9 @@ web3 has a function to transform ascii to Hex and we pass as `arguments`
 arguments: [web3.utils.asciiToHex('Hello')]
 ```
 
-So far soo good. You can inspect HelloWorld and HelloWorldTx to get more familiar with the available functions of those objects.
+So far so good. You can inspect HelloWorld and HelloWorldTx to get more familiar with the available functions of those objects.
 
-Now is time to send you contract.
+Now is time to send the contract.
 
 Replace the account hash `0xf453ac731ccabb802115a6654063d8f7c2c868ae` with one of your available accounts printed in the console.
 
